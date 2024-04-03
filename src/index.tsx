@@ -18,7 +18,7 @@ root.render(
     <Home />
     <About />
     <Skills />
-    <Contact />
+    <Contact recipientEmail="aleff.remberto@hotmail.com" />
     <Footer />
   </React.StrictMode>
 );
