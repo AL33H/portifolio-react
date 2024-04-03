@@ -150,8 +150,11 @@ const skills = [
 
 const Skills = () => {
   return (
-    <section className="h-screen lg:mt-10">
-      <div className="flex flex-row flex-wrap p-10 gap-8">
+    <section id="skills" className="lg:mt-10">
+      <div className="text-2xl text-center">
+        <h2 className="my-10 font-black lg:text-2xl self-center">Skill</h2>
+      </div>
+      <div className="flex flex-row flex-wrap p-10 gap-8 lg:gap-20">
         {skills.map((skill) => (
           <SkillCard key={skill.nome} imgSource={skill.img} />
         ))}
