@@ -18,10 +18,10 @@ const ContactForm: React.FC<ContactFormProps> = ({ recipientEmail }) => {
   return (
     <section
       id="contact"
-      className=" flex flex-col items-center h-full p-10 gap-10 bg-gradient-to-b from-cyan-600"
+      className=" flex flex-col items-center h-full p-10 gap-10 bg-gradient-to-t from-cyan-800"
     >
       <h2 className="text-center font-bold text-2xl">Contact</h2>
-      <div className="bg-cyan-400 bg-gradient-to-b from-cyan-600 box-shadow shadow-2xl border border-black rounded-3xl p-3 h-full w-96 m-10">
+      <div className="box-shadow shadow-2xl border border-black rounded-3xl p-3 h-full w-96 m-10">
         <form onSubmit={handleSubmit} className="gap-10">
           <div className="flex flex-col w-full">
             <label htmlFor="subject">Titulo:</label>
