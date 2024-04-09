@@ -151,11 +151,11 @@ const skillList = [
 
 export default function Skills() {
   return (
-    <section className="bg-gradient-to-t from-cyan-500 pb-5 p-10 flex flex-col">
+    <section className="bg-gradient-to-t from-slate-500 pb-5 p-10 flex flex-col">
       <div className="text-2xl self-center">
         <h2 className="my-10 font-black lg:text-2xl ">About</h2>
       </div>
-      <div className="flex flex-row flex-wrap gap-3">
+      <div className="flex flex-row flex-wrap gap-5 justify-center">
         {skillList.map((skill, index) => (
           <Skillcard
             key={index}

@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <section className="flex flex-col items-center bg-cyan-500">
+    <section className="flex flex-col items-center bg-slate-500">
       <div className="mt-5 mb-2 text-white">
         <h5>Designed and Built by Aleff Remberto</h5>
       </div>

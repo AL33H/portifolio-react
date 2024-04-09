@@ -6,13 +6,13 @@ import { FaRegAddressBook } from "react-icons/fa";
 
 export default function Header() {
   return (
-    <header className="bg-gradient-to-tr from-cyan-300 py-2">
+    <header className=" py-2 bg-slate-800">
       <div className="">
-        <nav className="flex font-bold text-cyan-600 items-center ml-2">
+        <nav className="flex font-bold text-cyan-400 items-center ml-2">
           <ul className="flex gap-4 ">
             <li>
               <a
-                className="flex flex-row items-center gap-1 hover:text-cyan-900"
+                className="flex flex-row items-center gap-1 hover:text-white"
                 href="/"
               >
                 <FaHome />
@@ -21,7 +21,7 @@ export default function Header() {
             </li>
             <li>
               <a
-                className="flex flex-row items-center gap-1 hover:text-cyan-900"
+                className="flex flex-row items-center gap-1 hover:text-white"
                 href="#about"
               >
                 <AiFillFire />
@@ -30,7 +30,7 @@ export default function Header() {
             </li>
             <li>
               <a
-                className="flex flex-row items-center gap-1 hover:text-cyan-900"
+                className="flex flex-row items-center gap-1 hover:text-white"
                 href="#skills"
               >
                 <FaBook />
@@ -39,7 +39,7 @@ export default function Header() {
             </li>
             <li>
               <a
-                className="flex flex-row items-center gap-1 hover:text-cyan-900"
+                className="flex flex-row items-center gap-1 hover:text-white"
                 href="#contact"
               >
                 <FaRegAddressBook />
