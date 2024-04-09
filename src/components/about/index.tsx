@@ -1,6 +1,6 @@
-const About = () => {
+export default function About() {
   return (
-    <section id="about" className="gap-20 bg-gradient-to-t from-cyan-300 pb-5 ">
+    <section id="about" className="gap-20">
       <div className="flex flex-col">
         <div className="text-2xl self-center">
           <h2 className="my-10 font-black lg:text-2xl ">About</h2>
@@ -43,6 +43,4 @@ const About = () => {
       </div>
     </section>
   );
-};
-
-export default About;
+}

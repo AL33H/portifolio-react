@@ -1,6 +1,6 @@
-const Footer = () => {
+export default function Footer() {
   return (
-    <section className="flex flex-col items-center bg-cyan-800">
+    <section className="flex flex-col items-center bg-cyan-500">
       <div className="mt-5 mb-2 text-white">
         <h5>Designed and Built by Aleff Remberto</h5>
       </div>
@@ -30,6 +30,4 @@ const Footer = () => {
       </div>
     </section>
   );
-};
-
-export default Footer;
+}

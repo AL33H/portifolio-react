@@ -1,10 +1,6 @@
 import { useState } from "react";
 
-interface ContactFormProps {
-  recipientEmail: string;
-}
-
-const ContactForm: React.FC<ContactFormProps> = ({ recipientEmail }) => {
+export default function ContactForm({ recipientEmail = "" }) {
   const [subject, setSubject] = useState("");
   const [body, setBody] = useState("");
 
@@ -18,7 +14,7 @@ const ContactForm: React.FC<ContactFormProps> = ({ recipientEmail }) => {
   return (
     <section
       id="contact"
-      className=" flex flex-col items-center h-full p-10 gap-10 bg-gradient-to-t from-cyan-800"
+      className=" flex flex-col items-center h-full p-10 gap-10 bg-gradient-to-b from-cyan-300"
     >
       <h2 className="text-center font-bold text-2xl">Contact</h2>
       <div className="box-shadow shadow-2xl border border-black rounded-3xl p-3 h-full w-96 m-10">
@@ -54,6 +50,4 @@ const ContactForm: React.FC<ContactFormProps> = ({ recipientEmail }) => {
       </div>
     </section>
   );
-};
-
-export default ContactForm;
+}

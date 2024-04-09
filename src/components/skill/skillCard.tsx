@@ -1,11 +1,14 @@
-const SkillCard = ({ imgSource = "" }) => {
-  return (
-    <div>
-      <button className="box-border rounded-full shadow-2xl w-28 h-20 p-2 lg:h-20 lg:w-30">
-        <img src={imgSource} alt="t" />
-      </button>
-    </div>
-  );
-};
+import { Card, CardContent, CardMedia, Typography } from "@mui/material";
 
-export default SkillCard;
+export default function Skillcard({ imgSrc = "", text = "", alt = "" }) {
+  return (
+    <Card className="hover:z-20" sx={{ maxWidth: 245 }}>
+      <CardMedia sx={{ height: 120 }} image={imgSrc} title={alt} />
+      <CardContent>
+        <Typography variant="body2" color="text.secondary">
+          {text}
+        </Typography>
+      </CardContent>
+    </Card>
+  );
+}
