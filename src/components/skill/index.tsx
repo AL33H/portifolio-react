@@ -39,7 +39,7 @@ const skillList = [
   },
   {
     nome: "JavaScript",
-    img: "https://www.vectorlogo.zone/logos/javascript/javascript-icon.svg",
+    img: "https://www.vectorlogo.zone/logos/javascript/javascript-ar21.svg",
     desc: "JavaScript é uma linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica fraca e multiparadigma. Juntamente com HTML e CSS, o JavaScript é uma das três principais tecnologias da World Wide Web.",
   },
   {
@@ -80,7 +80,7 @@ const skillList = [
   {
     nome: "tailwindcss",
     img: "https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-ar21.svg",
-    desc: "Traduzido do inglês-Tailwind CSS é uma estrutura CSS de código aberto. A principal característica desta biblioteca é que, ao contrário de outros frameworks CSS como Bootstrap, ela não fornece uma série de classes predefinidas para elementos como botões ou tabelas.",
+    desc: "Tailwind CSS é uma estrutura CSS de código aberto. A principal característica desta biblioteca é que, ao contrário de outros frameworks CSS como Bootstrap, ela não fornece uma série de classes predefinidas para elementos como botões ou tabelas.",
   },
   {
     nome: "postgresql",
@@ -151,9 +151,9 @@ const skillList = [
 
 export default function Skills() {
   return (
-    <section className="bg-gradient-to-t from-slate-500 pb-5 p-10 flex flex-col">
+    <section id="skills" className="bg-gradient-to-t from-slate-500 pb-5 p-10 flex flex-col">
       <div className="text-2xl self-center">
-        <h2 className="my-10 font-black lg:text-2xl ">About</h2>
+        <h2 className="my-10 font-black lg:text-2xl ">Skills</h2>
       </div>
       <div className="flex flex-row flex-wrap gap-5 justify-center">
         {skillList.map((skill, index) => (

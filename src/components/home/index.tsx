@@ -21,6 +21,54 @@ const Home = () => {
             backSpeed={60}
             loop
           />
+          <div className="flex flex-row gap-5 mt-5">
+            <a
+              className="hover:scale-150"
+              href="https://github.com/AL33H"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                src="https://img.icons8.com/doodle/40/000000/github.png"
+                alt="github"
+              />
+            </a>
+            <a
+              className="hover:scale-150"
+              href="https://www.linkedin.com/in/aleff-remberto-0b60b21b2"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                src="https://img.icons8.com/doodle/40/000000/linkedin.png"
+                alt="linkedin"
+              />
+            </a>
+            <a
+              className="hover:scale-150"
+              href="https://cursos.alura.com.br/user/aleff-santos"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                className="w-10 h-10"
+                src="https://cursos.alura.com.br/assets/images/logos/logo-alura.svg"
+                alt="alura"
+              />
+            </a>
+            <a
+              className="hover:scale-150"
+              href="https://www.dio.me/users/aleff_remberto"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                className="w-10 h-10"
+                src="https://hermes.digitalinnovation.one/assets/diome/logo-full.svg"
+                alt="Digital Innovation One"
+              />
+            </a>
+          </div>
         </div>
         <div>
           <img
