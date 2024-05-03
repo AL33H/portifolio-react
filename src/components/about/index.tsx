@@ -9,7 +9,7 @@ export default function About() {
           <div className="w-2/3">
             <img
               className="rounded-full w-3/5 h-3/5 mx-auto border-4 border-slate-700"
-              src="https://scontent.fjdo10-2.fna.fbcdn.net/v/t39.30808-6/337824336_902948414248333_2592229879725556379_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=5f2048&_nc_ohc=WgnmpD3--d8Ab7_LiWB&_nc_ht=scontent.fjdo10-2.fna&oh=00_AfBPw6ytOIbVEIE0AQl8ZT-5mZuEvip4OIwlI8KJtZ5lZA&oe=661B395E"
+              src="https://cdn.discordapp.com/attachments/1041790751211782160/1235965922494120110/image.png?ex=66364a77&is=6634f8f7&hm=9863b0f41c3c054c319fe3748437ceeb85064e7b14e07b19b5e275fa855cfece&"
               alt="Aleff Remberto"
             />
           </div>
